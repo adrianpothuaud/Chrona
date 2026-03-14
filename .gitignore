@@ -1,0 +1,33 @@
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio
+*.iml
+.idea/
+local.properties
+*.class
+*.jar
+*.apk
+*.ap_
+*.aab
+bin/
+gen/
+out/
+release/
+.navigation/
+
+# macOS
+.DS_Store
+
+# Test results
+*.hprof
+test-results/
+
+# Misc
+*.log
+captures/
+.externalNativeBuild/
+.cxx/

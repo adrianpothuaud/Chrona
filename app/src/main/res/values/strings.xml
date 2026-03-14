@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Chrona</string>
+
+    <!-- Navigation -->
+    <string name="nav_clock">Clock</string>
+    <string name="nav_alarm">Alarms</string>
+    <string name="nav_stopwatch">Stopwatch</string>
+    <string name="nav_timer">Timers</string>
+
+    <!-- Timer Types -->
+    <string name="timer_type_countdown">Countdown</string>
+    <string name="timer_type_interval">Interval</string>
+    <string name="timer_type_hiit">HIIT</string>
+    <string name="timer_type_tabata">TABATA</string>
+    <string name="timer_type_emom">EMOM</string>
+    <string name="timer_type_amrap">AMRAP</string>
+    <string name="timer_type_multistage">Multi-Stage</string>
+
+    <!-- Timer Actions -->
+    <string name="action_start">Start</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_skip_round">Skip Round</string>
+    <string name="action_save">Save</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_add">Add</string>
+    <string name="action_search">Search</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_sort">Sort</string>
+
+    <!-- Timer Fields -->
+    <string name="field_name">Name</string>
+    <string name="field_duration">Duration</string>
+    <string name="field_rounds">Rounds</string>
+    <string name="field_work_duration">Work Duration</string>
+    <string name="field_rest_duration">Rest Duration</string>
+    <string name="field_tags">Tags</string>
+    <string name="field_favorite">Favorite</string>
+    <string name="field_notes">Notes</string>
+
+    <!-- Timer States -->
+    <string name="state_idle">Ready</string>
+    <string name="state_running">Running</string>
+    <string name="state_paused">Paused</string>
+    <string name="state_finished">Finished</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_timer">Timer</string>
+    <string name="notification_channel_alarm">Alarm</string>
+    <string name="notification_timer_running">Timer Running</string>
+    <string name="notification_timer_paused">Timer Paused</string>
+    <string name="notification_time_remaining">%s remaining</string>
+    <string name="notification_round">Round %1$d / %2$d</string>
+
+    <!-- Sort Options -->
+    <string name="sort_name">Name</string>
+    <string name="sort_duration">Duration</string>
+    <string name="sort_created">Date Created</string>
+    <string name="sort_favorites">Favorites First</string>
+
+    <!-- Empty States -->
+    <string name="empty_timers">No timers yet.\nTap + to create your first timer.</string>
+    <string name="empty_alarms">No alarms set.\nTap + to add an alarm.</string>
+    <string name="empty_search">No timers match your search.</string>
+
+    <!-- Shortcuts (App Actions) -->
+    <string name="shortcut_start_timer_short">Start Timer</string>
+    <string name="shortcut_start_timer_long">Start a Chrona Timer</string>
+    <string name="shortcut_stopwatch_short">Stopwatch</string>
+    <string name="shortcut_stopwatch_long">Start Stopwatch</string>
+
+    <!-- Examples -->
+    <string name="timer_example_pasta">7 min Pasta Timer</string>
+    <string name="timer_example_emom">10 min EMOM</string>
+    <string name="timer_example_amrap">20 min AMRAP</string>
+    <string name="timer_example_tabata">Tabata 8 Rounds</string>
+    <string name="timer_example_hiit">30/30 HIIT</string>
+
+    <!-- Alarms -->
+    <string name="alarm_label_default">Alarm</string>
+    <string name="alarm_repeat">Repeat</string>
+    <string name="alarm_days_once">Once</string>
+
+    <!-- Stopwatch -->
+    <string name="stopwatch_lap">Lap</string>
+    <string name="stopwatch_laps">Laps</string>
+
+    <!-- Misc -->
+    <string name="minutes_format">%d min</string>
+    <string name="seconds_format">%d sec</string>
+    <string name="rounds_format">%d rounds</string>
+    <string name="confirm_delete_timer">Delete this timer?</string>
+    <string name="confirm_delete_alarm">Delete this alarm?</string>
+    <string name="new_timer">New Timer</string>
+    <string name="edit_timer">Edit Timer</string>
+    <string name="timer_details">Timer Details</string>
+</resources>
