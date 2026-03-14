@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="start_timer"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_start_timer_short"
+        android:shortcutLongLabel="@string/shortcut_start_timer_long">
+        <intent
+            android:action="com.chrona.app.START_TIMER"
+            android:targetPackage="com.chrona.app"
+            android:targetClass="com.chrona.app.MainActivity" />
+        <categories android:name="android.shortcut.conversion" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="start_stopwatch"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_stopwatch_short"
+        android:shortcutLongLabel="@string/shortcut_stopwatch_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.chrona.app"
+            android:targetClass="com.chrona.app.MainActivity"
+            android:data="chrona://stopwatch" />
+        <categories android:name="android.shortcut.conversion" />
+    </shortcut>
+
+</shortcuts>
